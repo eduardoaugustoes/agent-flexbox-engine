@@ -1,0 +1,35 @@
+{
+  "name": "agent-flexbox-engine",
+  "version": "0.1.0",
+  "description": "Production-grade CSS Flexbox layout engine for agent-driven design automation",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test tests/**/*.test.js",
+    "test:watch": "node --test --watch tests/**/*.test.js",
+    "dev": "node --watch src/index.js",
+    "build": "echo 'Build step - TBD'",
+    "lint": "echo 'Lint step - TBD'"
+  },
+  "keywords": ["flexbox", "layout", "css", "ai", "agents", "automation", "design"],
+  "author": "Eduardo Augusto",
+  "license": "MIT",
+  "dependencies": {
+    "skia-canvas": "^1.0.1"
+  },
+  "devDependencies": {
+    
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoaugustoes/agent-flexbox-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eduardoaugustoes/agent-flexbox-engine/issues"
+  },
+  "homepage": "https://github.com/eduardoaugustoes/agent-flexbox-engine#readme"
+}
