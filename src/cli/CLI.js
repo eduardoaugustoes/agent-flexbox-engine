@@ -92,7 +92,7 @@ export class CLI {
   /**
    * Export layout as JSON
    */
-  exportCommand(args) {
+  async exportCommand(args) {
     const [filename] = args;
     const layout = this.engine.exportLayout();
     
